@@ -82,7 +82,7 @@
   },
   "mimeTypes": {
     ".json": "text/json"
-  }
+  },
   "auth": {
     "azureActiveDirectory": {
       "registration": {
