@@ -60,6 +60,11 @@
   "mimeTypes": {
     ".json": "text/json"
   },
+  "responseOverrides": {
+  "401": {
+	"redirect": "/.auth/login/aad",
+	"statusCode": 302
+  }
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
@@ -71,10 +76,5 @@
 	    "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
 	  }
 	}
-  },
-  "responseOverrides": {
-  "401": {
-	"redirect": "/.auth/login/aad",
-	"statusCode": 302
   }
 }
