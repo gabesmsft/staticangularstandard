@@ -1,4 +1,4 @@
-The purpose of this Static Web App example is to demo a couple things:
+The purpose of this Static Web App example is to demo a couple things: 
 - Bring Your Own Functions: to demo this functionality, deploy the code that is in the FunctionAppCode-DeploySeparately folder separately, to a Node.js Function App. See [this documentation](https://docs.microsoft.com/azure/static-web-apps/functions-bring-your-own) on how to configure Bring Your Own Functions to use your Function App as a backend API for your Static Web App. Don't try to use Managed Functions in combination with Bring Your Own Functions.
 - Managed Functions: to demo this functionality, rename the api_ folder to api. Don't try to use Managed Functions in combination with Bring Your Own Functions.
 - Custom authentication: Rename the staticwebapp.config-aadauth.json to staticwebapp.config.json and see [this documentation](https://docs.microsoft.com/azure/static-web-apps/authentication-custom?tabs=aad).
